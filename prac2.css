@@ -1,0 +1,34 @@
+.navbar{
+    /*designing of the whole navigation bar*/
+    background-color: black;
+    border-radius: 30px;  
+}
+.navbar ul{ 
+ overflow: auto; /*As I have used float operation below therefore overflow occurred in which the background color disappears*/
+}
+.navbar li{
+ float:left; /*changing vertical list into horizontal form*/
+ list-style: none; /*for removing bullets from the list*/
+ margin: 13px 20px; /*Setting up the margins from top/bottom right/left*/
+ 
+}
+.navbar li a{
+ padding: 3px 3px; /*creating space in between two lists*/
+ text-decoration: none; /*Removing the underline from the link*/
+ color: white; /*Changing the default color of the link*/
+}
+.navbar li a:hover{
+ color: red
+}
+.search{
+ float: right; 
+ color: white;
+ padding: 12px 75px;
+}
+.navbar input{
+ /*Designing the search menu*/
+ border: 2px solid black;
+ border-radius: 14px;
+ padding: 3px 17px;
+ width: 129px;
+}
