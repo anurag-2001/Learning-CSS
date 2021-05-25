@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    border: 2px solid black; 
+}
+img{
+    display: block; /*Here we fixed the whole line for an image*/
+    margin: auto;   /*To put the image in center*/
+    width: 100px;   /*Adjusting the size of the image*/
+}
+h3{
+    margin: 0px;    /*Removing the spaces between image and heading*/
+    text-align: center;  /*placing the header text in Center*/
+}
+.box{
+    border: 2px solid black;
+    background-color: gray;
+    margin: 4px 0px;
+    padding: 23px;
+    display: inline-block; /*allows to set a width and height on the element.*/
+    width: 33%;
+    box-sizing: border-box;
+}
+.container{
+    margin: auto;
+    width: 1200px;
+}
