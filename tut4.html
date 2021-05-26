@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu bar practice</title>
+</head>
+<style>
+    header{
+        background-color: rgb(94 1 1);
+        border-radius: 80px;
+        height: 76px;
+    }
+    .navbar{
+        overflow: auto;
+    }
+    .navbar li{
+        float:left;
+        margin: 0px 20px;
+        /* border: 2px solid rgb(252, 108, 24); */
+        list-style: none;
+    }
+    li a:hover{
+        color: red;
+    }
+    .navbar a{
+        text-decoration: none;
+        color: white;
+        padding: 10px 10px;
+    }
+    .searchbar{
+        float: right;
+        padding: 10px 43px;
+    }
+    input{
+        border: 2px solid rgba(109, 109, 128, 0.993);
+        border-radius: 10px;
+        width: 129px;
+        padding: 3px 17px;
+    }
+</style>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="searchbar">
+                <input type="text"  name=search id="search" placeholder="Search Here">
+            </div>  
+        </nav>
+    </header>
+</body>
+</html>
