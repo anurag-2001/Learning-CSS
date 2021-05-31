@@ -13,6 +13,6 @@ Actually there are three ways to add CSS to HTML
 
 Creating a page layout:When we used the right tag in right place,it results in a better page layout,better
 indexing by search engines and better user experience.We use the following tag to get the job done...
-<header>  ---> Contains the nav tag  ]
-<main> ---> The main opening tag     }---> Website layout
-<footer>                             ]
+    i) <header>
+    ii) <main>    
+    iii) <footer>                             
