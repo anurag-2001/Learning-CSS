@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+ 
+
+ *{
+   /*We must do this in every program which
+   will remove the deafult positions of HTML*/
+   margin:0;
+   padding:0;
+   box-sizing: border-box; /*Suppose there is a container box of 500px in which there are two more boxes 
+                             250px each but we would notice that the second box isn't completly inside the conatiner box beacuse HTML calulate the pixel of the border of the boxes too So we 
+                             us box sizing to ignore those small calculation errors */
+ }
+ body{
+   background-color: hsl(0, 0%, 95%);
+   display: flex;
+   justify-content: center;
+   height: 100vh;  /*If we gave height then we can allign the boxes in the center of the screen*/
+   align-items: center; /*Aligns flex items along the cross axis of the current line of the 
+                          flex container. It will  allign with respect to the hight given above*/
+ }
+
+ .box1{
+   /* border: 1px solid black; */
+   border-top-left-radius: 10px; /*adding curves to the specific corners of the box*/
+   border-bottom-left-radius: 10px;
+   display: inline-block; /*Used this for changing the boxes from verticle to horizontal form */
+   width: 40vh;
+   height: 60vh;
+   padding: 25px 40px; /*Used for creating spaces inside the box top-bottom/right-left direction respectively*/
+   margin-right: -5px; /*I saw a gap between two boxes inside the containe so I used this to earse of that space*/
+   background-color: hsl(31, 77%, 52%);
+ }
+ .box2{
+   /* border:1px solid black; */
+   display: inline-block;
+   width: 40vh;
+   height: 60vh;
+   padding: 25px 40px;
+   margin-right: -5px;
+   background-color: hsl(184, 100%, 22%);
+ }
+ .box3{
+   /* border:1px solid black; */
+   border-top-right-radius: 10px;
+   border-bottom-right-radius: 10px;
+   display: inline-block;
+   width: 40vh;
+   height: 60vh;
+   padding: 25px 40px;
+   margin-right: -5px;
+   background-color: hsl(179, 100%, 13%);
+ }
+ button{
+   border-radius: 20px;
+   padding: 10px 25px 10px 25px;
+   cursor: pointer; /*When ever the mouse cursor would go over the button..the cousor style would change to pointer*/
+   background-color:hsl(0, 0%, 95%);
+   border:1px solid hsl(0, 0%, 95%);
+   font-family: 'Lexend Deca', sans-serif;
+   font-size: 15px;
+ }
+ h2{
+   font-family: 'Big Shoulders Display', cursive;
+   font-weight: 500;
+   font-size: 35px;
+   color: hsl(0, 0%, 95%);
+ }
+ .para{
+   color: hsla(0, 0%, 100%, 0.75);
+   font-size: 15px;
+   font-family: 'Lexend Deca', sans-serif;
+ }
