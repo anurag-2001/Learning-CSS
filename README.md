@@ -3,6 +3,7 @@ Project Output:
 <br>
 Project-1: https://anurag-2001.github.io/Learning-CSS/Project-1/index.html
 <br>
+Project-2: https://anurag-2001.github.io/Learning-CSS/Project-2/index.html
 <br>
 <br>
  Using comments we highlighted the work flow of CSS
