@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/bg-pattern-bottom-desktop.svg);
+  }
+  .container{
+      width: 60rem;
+      height: 40rem;
+  }
+   h1{
+     color:hsl(300, 43%, 22%);
+     font-size: 42px;
+   }
+   .intro{
+     width:23rem;
+     color: hsl(303, 10%, 53%);
+     font-size: 16px;
+   }
+  .box1{
+      display: inline-block;
+      width: 25rem;
+      height: 15rem;
+      padding: 20px 62px;
+      position: relative; /*I did this to move the position of the box to the best place*/
+      bottom: -24px;
+      right: -41px;
+
+  }
+  .rating{
+    display: inline-block;
+    position: relative;
+    bottom:50px;
+    left: 170px;
+    color: hsl(300, 43%, 22%);
+    font-family: 'Spartan', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+  }
+  .rate1{
+    text-align: center;
+      /* border: 1px solid black; */
+      width: 21rem;
+      height: 3rem;
+      position: relative;
+      right: 35px;
+      padding: 13px 15px;
+      border-radius: 5px;
+      background-color: hsl(300, 24%, 96%);
+  }
+  .rate2{
+    text-align: center;
+    /* border: 1px solid black; */
+    width: 22rem;
+    height: 3rem;
+    position: relative;
+    top:12px;
+    padding: 13px 15px;
+    border-radius: 5px;
+    background-color: hsl(300, 24%, 96%);
+}
+.rate3{
+  text-align: center;
+  /* border: 1px solid black; */
+  width: 21rem;
+  height: 3rem;
+  position: relative;
+  right: -39px;
+  top: 27px;
+  padding: 13px 15px;
+  border-radius: 5px;
+  background-color: hsl(300, 24%, 96%);
+  
+}
+.boxes{
+  /* text-align: center; */
+  margin:auto;
+  
+}
+ .box{
+  display: inline-block;
+  width: 19rem;
+  height: 13rem;
+  position: relative;
+  border-radius: 10px;
+  padding:25px 18px;
+  background-color: hsl(300, 43%, 22%);
+  color: hsl(300, 24%, 96%);
+ }
+ 
+  .box2{
+    top: 70px;
+    left: 60px;
+  }
+  .box3{
+    top: 86px;
+    left: 77px;
+  }
+  .box4{
+    top: 106px;
+    left: 102px;
+   
+  }
+  .images{
+    border-radius: 50%;
+    display: inline;
+    width: 50px;
+  }
+  .name{
+    display: inline-block;
+  }
+  .cap{
+    font-size: 15px;
+    color: hsl(333, 80%, 67%);
+  }
